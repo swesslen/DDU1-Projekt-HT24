@@ -5,6 +5,7 @@
 
 body {
     font-family: "Inter";
+    background-color: whitesmoke;
 }
 
 nav {
@@ -17,7 +18,7 @@ nav {
     right: 0;
     margin-left: 2vw;
     margin-right: 2vw;
-    background-color: rgba(255, 255, 255, 0.886);
+    background-color: rgba(245, 245, 245, 0.909);
 }
 
 nav div {
@@ -53,11 +54,19 @@ nav div {
     width: fit-content;
 }
 
+.freeBarky a {
+    text-decoration: none;
+    color: white;
+}
+
 #leftNav div, #rightNav div {
     padding: 7px;
     border-radius: 10px;
 }
 
+h2 {
+    font-size: 35px;
+}
 
 main {
     margin-top: 100px;
@@ -114,7 +123,124 @@ main {
     flex: 1;
     max-width: 100px;
     object-fit: contain;
+}
+
+.tutorial {
+    margin-top: 50px;
+}
+
+.tutorial h2 {
+font-size: 35px;
+margin-bottom: 15px;
+}
+
+.tutorial p {
+    font-size: 18px;
+    width: 50%;
+    color: gray;
+}
+
+.tutorial img {
+    max-width: 1000px;
+    margin-top: 30px;
+}
+
+.quote {
+    margin-bottom: 50px;
+}
+
+.quote p {
+    font-size: 50px;
+    font-weight: bold;
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quotee {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 70px;
+   gap: 10px;
+}
+
+.quotee img {
+    height: 60px;
+}
+
+.quotee h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.quotee h5 {
+    margin-top: 10px;
+    color: gray;
+    font-size: 14px;
+}
+
+.title {
+    flex-direction: column;
+}
+
+#finalquote {
+    padding-bottom: 70px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.437);
+}
+
+#freeplanwrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#freeplanintro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#freeplanintro h2 {
+    margin-bottom: 5px;
+}
+
+#freeplanwrapper p {
+    color: gray;
+    width: 50%;
+}
+
+#checklist {
+    background-color: rgba(211, 211, 211, 0.634);
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
     
+}
+
+#checklist div {
+    display: flex;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.437);
+    align-items: center;
+    color: rgb(96, 95, 95);
+    padding: 15px 0 15px 0;
+}
+
+#checklist #checklistStart {
+    margin: 0;
+}
+
+#checklist img {
+    width: 17px;
+    display: flex;
+}
+
+body #checklist #rightListItem {
+    text-align: end;
+    color: black;
 }
 
 footer {
