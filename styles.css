@@ -5,13 +5,12 @@
 
 body {
     font-family: "Inter";
-    background-color: whitesmoke;
 }
 
 nav {
     display: flex;
     padding: 17px;
-    border-bottom: 2px solid rgba(128, 128, 128, 0.437);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.437);
     position: fixed;
     top: 0;
     left: 0;
@@ -107,8 +106,8 @@ main {
 
 #companies {
     width: 1000px;
-    border-bottom: 2px solid rgba(128, 128, 128, 0.437);
-    border-top: 2px solid rgba(128, 128, 128, 0.437);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.437);
+    border-top: 1px solid rgba(128, 128, 128, 0.437);
     
 }
 
@@ -185,7 +184,7 @@ margin-bottom: 15px;
 
 #finalquote {
     padding-bottom: 70px;
-    border-bottom: 2px solid rgba(128, 128, 128, 0.437);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.437);
 }
 
 #freeplanwrapper {
@@ -252,7 +251,92 @@ body #checklist #rightListItem {
     border-bottom: none;
 }
 
+#bfetWrapper h2, #bfetWrapper p{
+    text-align: center;
+}
 
+#bfetWrapper p {
+    color: gray;
+}
+
+#bfetWrapper h2 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+#bfetP {
+    margin-bottom: 40px;
+}
+
+#bfet3 {
+    display: flex;
+}
+
+#bfet3 div {
+    text-align: center;
+    padding: 15px;
+    border-right: 1px solid rgba(128, 128, 128, 0.437);
+    flex: 1;
+}
+
+#bfet3 h3 {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+#bfet3 #bfetLast {
+    border-right: none;
+}
+
+#bfet3 a {
+    color: black;
+}
+
+#badgesTitle {
+    text-align: center;
+    margin-top: 70px;
+}
+
+#badgesWrapper {
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#badgesWrapper h3 {
+    font-size: 25px;
+}
+
+#badgesWrapper a {
+    color: black;
+}
+
+#badgesWrapper div {
+    flex: 1;
+    margin-bottom: 50px;
+}
+
+#badgesWrapper img {
+    width: 500px;
+}
+
+#percentagesWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+
+#percentagesWrapper h1 {
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#percentagesWrapper p {
+    
+}
 
 footer {
     max-width: 1200px;
