@@ -4,7 +4,9 @@
 }
 
 @media (max-width: 600px) {
-
+    #introwrapper {
+        flex-direction: column;
+    }
 }
 
 body {
@@ -145,8 +147,11 @@ margin-bottom: 15px;
 
 .tutorial p {
     font-size: 18px;
-    width: 50%;
     color: gray;
+}
+
+.tutorial p, .tutorial h2 {
+    max-width: 45%;
 }
 
 .tutorial img {
@@ -301,6 +306,10 @@ body #checklist #rightListItem {
 
 #bfet3 a {
     color: black;
+}
+
+#bfet3 a:hover {
+    color: rgb(37, 122, 191);
 }
 
 #badgesTitle {
