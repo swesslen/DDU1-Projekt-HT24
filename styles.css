@@ -21,8 +21,8 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
     background-color: rgba(255, 255, 255, 0.909);
 }
 
@@ -70,7 +70,8 @@ nav div {
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.076);
 }
 
-#leftNav div, #rightNav div {
+#leftNav div,
+#rightNav div {
     padding: 7px;
     border-radius: 10px;
 }
@@ -120,7 +121,7 @@ main {
     width: 1000px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.437);
     border-top: 1px solid rgba(128, 128, 128, 0.437);
-    
+
 }
 
 #companies div {
@@ -141,8 +142,8 @@ main {
 }
 
 .tutorial h2 {
-font-size: 35px;
-margin-bottom: 15px;
+    font-size: 35px;
+    margin-bottom: 15px;
 }
 
 .tutorial p {
@@ -150,7 +151,8 @@ margin-bottom: 15px;
     color: gray;
 }
 
-.tutorial p, .tutorial h2 {
+.tutorial p,
+.tutorial h2 {
     max-width: 45%;
 }
 
@@ -173,11 +175,11 @@ margin-bottom: 15px;
 }
 
 .quotee {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 70px;
-   gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    gap: 10px;
 }
 
 .quotee img {
@@ -188,6 +190,7 @@ margin-bottom: 15px;
     margin-bottom: 10px;
     font-size: 18px;
 }
+
 .quotee h5 {
     margin-top: 10px;
     color: gray;
@@ -248,14 +251,15 @@ margin-bottom: 15px;
 }
 
 
-#checklistStart p, #checkliststart div {
+#checklistStart p,
+#checkliststart div {
     margin: 0;
 }
 
 #checklist img {
     width: 17px;
     display: flex;
-    
+
 }
 
 body #checklist #rightListItem {
@@ -267,7 +271,8 @@ body #checklist #rightListItem {
     border-bottom: none;
 }
 
-#bfetWrapper h2, #bfetWrapper p{
+#bfetWrapper h2,
+#bfetWrapper p {
     text-align: center;
 }
 
@@ -346,7 +351,7 @@ body #checklist #rightListItem {
     display: flex;
     justify-content: space-evenly;
     width: 1000px;
-    
+
 }
 
 #percentagesWrapper div {
@@ -355,6 +360,8 @@ body #checklist #rightListItem {
     margin-top: 0;
     margin-bottom: 0;
     color: gray;
+    flex: 1;
+    text-align: center;
 }
 
 #percentagesWrapper h1 {
@@ -365,7 +372,6 @@ body #checklist #rightListItem {
 
 #percentagesWrapper p {
     margin-top: 0px;
-    text-align: center;
 }
 
 #percentagesWrapper #lastPercent {
@@ -379,7 +385,7 @@ body #checklist #rightListItem {
     justify-content: center;
     align-items: center;
     padding: 60px 0;
-    
+
 }
 
 #tryToday h2 {
@@ -392,10 +398,16 @@ body #checklist #rightListItem {
 }
 
 footer {
+    border-top: 1px solid rgba(128, 128, 128, 0.437);
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#footerWrapper {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    border-top: 1px solid rgba(128, 128, 128, 0.437);
+
     padding: 60px 0;
     display: flex;
     justify-content: space-evenly;
@@ -421,7 +433,12 @@ footer div {
     color: black;
 }
 
-footer div p {
+footer div a {
     margin: 10px 0 15px 0;
     color: gray;
+    text-decoration: none;
+}
+
+footer div a:hover {
+    text-decoration: underline gray;
 }
