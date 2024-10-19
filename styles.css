@@ -437,6 +437,7 @@ footer div a {
     margin: 10px 0 15px 0;
     color: gray;
     text-decoration: none;
+    display: block;
 }
 
 footer div a:hover {
