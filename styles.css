@@ -17,7 +17,7 @@ nav {
     right: 0;
     margin-left: 2vw;
     margin-right: 2vw;
-    background-color: rgba(245, 245, 245, 0.909);
+    background-color: rgba(255, 255, 255, 0.909);
 }
 
 nav div {
@@ -359,7 +359,7 @@ body #checklist #rightListItem {
     justify-content: center;
     align-items: center;
     padding: 60px 0;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.437);
+    
 }
 
 #tryToday h2 {
@@ -375,4 +375,19 @@ footer {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    border-top: 1px solid rgba(128, 128, 128, 0.437);
+    padding: 60px 0;
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+.footerBold {
+    font-weight: bold;
+}
+
+footer div p {
+    margin: 10px 0 30px 0;
 }
