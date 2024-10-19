@@ -3,6 +3,10 @@
     src: local("Inter"), url(material/Inter.ttf);
 }
 
+@media (max-width: 600px) {
+    
+}
+
 body {
     font-family: "Inter";
 }
@@ -226,7 +230,7 @@ margin-bottom: 15px;
     font-size: 17px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.437);
     align-items: center;
-    color: rgb(96, 95, 95);
+    color: gray;
     padding: 15px 0 15px 0;
     justify-content: space-between;
 }
@@ -389,12 +393,19 @@ footer div {
     display: flex;
     gap: 10px;
     max-width: 25px;
+    margin: 25px 0 70px 0;
+}
+
+.copyright {
+    color: black;
 }
 
 .footerBold {
     font-weight: bold;
+    color: black;
 }
 
 footer div p {
     margin: 10px 0 15px 0;
+    color: gray;
 }
