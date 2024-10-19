@@ -7,7 +7,13 @@
    nav {
     position: relative;
    }
-   
+   div#leftNav, div#rightNav, div.freeBarky {
+    display: none;
+   }
+   div#hamburger {
+    display: block;
+    object-fit: contain;
+   }
 }
 
 body {
@@ -25,6 +31,10 @@ nav {
     margin-left: 1vw;
     margin-right: 1vw;
     background-color: rgba(255, 255, 255, 0.909);
+}
+
+div#hamburger {
+    display: none;
 }
 
 nav div {
