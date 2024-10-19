@@ -378,10 +378,17 @@ footer {
     border-top: 1px solid rgba(128, 128, 128, 0.437);
     padding: 60px 0;
     display: flex;
+    justify-content: space-evenly;
 }
 
 footer div {
-    flex: 1;
+    max-width: 25%;
+}
+
+#footerImg {
+    display: flex;
+    gap: 10px;
+    max-width: 25px;
 }
 
 .footerBold {
@@ -389,5 +396,5 @@ footer div {
 }
 
 footer div p {
-    margin: 10px 0 30px 0;
+    margin: 10px 0 15px 0;
 }
