@@ -4,16 +4,40 @@
 }
 
 @media (max-width: 600px) {
-   nav {
-    position: relative;
-   }
-   div#leftNav, div#rightNav, div.freeBarky {
-    display: none;
-   }
-   div#hamburger {
-    display: block;
-    object-fit: contain;
-   }
+    body {
+        width: 600px;
+    }
+
+    nav {
+        position: relative;
+        width: 90%;
+        box-sizing: border-box;
+        border-bottom: none;
+    }
+
+    #leftNav,
+    #rightNav,
+    .freeBarky {
+        display: none;
+    }
+
+    nav #hamburger {
+        display: inline;
+        width: 30px;
+        padding: 10px;
+        margin-left: auto;
+    }
+
+    #introwrapper {
+        width: 580px;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+
+    #introwrapper img {
+        width: 580px;
+    }
 }
 
 body {
@@ -23,18 +47,19 @@ body {
 nav {
     display: flex;
     padding: 17px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.437);
+    border-bottom: 1px solid #f6f5f4;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     margin-left: 1vw;
     margin-right: 1vw;
-    background-color: rgba(255, 255, 255, 0.909);
+    background-color: rgba(255, 255, 255, 0.825)
 }
 
-div#hamburger {
+#hamburger {
     display: none;
+    width: 25px;
 }
 
 nav div {
@@ -68,7 +93,7 @@ nav div {
     padding: 10px 15px 10px 15px;
     border-radius: 5px;
     width: fit-content;
-    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.076);
+    box-shadow: 0px 0px 0px 0.1px rgba(0, 0, 0, 0.02);
 }
 
 .freeBarky:hover {
@@ -78,13 +103,19 @@ nav div {
 .freeBarky a {
     text-decoration: none;
     color: white;
-    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.076);
+    box-shadow: 0px 0px 0px 0.1px rgba(0, 0, 0, 0.02);
 }
 
 #leftNav div,
-#rightNav div {
-    padding: 7px;
+#rightNav div, 
+#hamburger {
+    padding: 10px;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+#leftNav div:hover, #rightNav div:hover, #hamburger:hover {
+    background-color: #f6f5f4;
 }
 
 h2 {
@@ -130,8 +161,8 @@ main {
 
 #companies {
     width: 1000px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.437);
-    border-top: 1px solid rgba(128, 128, 128, 0.437);
+    border-bottom: 1px solid #f6f5f4;
+    border-top: 1px solid #f6f5f4;
 
 }
 
@@ -214,14 +245,14 @@ main {
 
 #finalquote {
     padding-bottom: 70px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.437);
+    border-bottom: 1px solid #f6f5f4;
 }
 
 #freeplanwrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.437);
+    border-bottom: 1px solid #f6f5f4;
     padding-bottom: 70px;
 }
 
@@ -254,7 +285,7 @@ main {
 #checklist div {
     display: flex;
     font-size: 17px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.437);
+    border-bottom: 1px solid #f6f5f4;
     align-items: center;
     color: gray;
     padding: 15px 0 15px 0;
@@ -307,7 +338,7 @@ body #checklist #rightListItem {
 #bfet3 div {
     text-align: center;
     padding: 15px;
-    border-right: 1px solid rgba(128, 128, 128, 0.437);
+    border-right: 1px solid #f6f5f4;
     flex: 1;
 }
 
@@ -366,7 +397,7 @@ body #checklist #rightListItem {
 }
 
 #percentagesWrapper div {
-    border-right: 1px solid rgba(128, 128, 128, 0.437);
+    border-right: 1px solid #f6f5f4;
     padding: 0 30px 0 30px;
     margin-top: 0;
     margin-bottom: 0;
@@ -409,7 +440,7 @@ body #checklist #rightListItem {
 }
 
 footer {
-    border-top: 1px solid rgba(128, 128, 128, 0.437);
+    border-top: 1px solid #f6f5f4;
     margin-left: 1vw;
     margin-right: 1vw;
 }
