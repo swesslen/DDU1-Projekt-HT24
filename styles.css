@@ -127,6 +127,21 @@
         margin-bottom: 30px;
     }
 
+    body footer #footerWrapper {
+        flex-direction: column;
+        width: 580px;
+        gap: 10px;
+    }
+
+    .mobileFooterDiv {
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+    }
+
+   body #footerImg {
+    margin-bottom: 30px;
+   }
     
 }
 body {
@@ -552,10 +567,16 @@ footer {
     padding: 60px 0;
     display: flex;
     justify-content: space-evenly;
+    gap: 100px;
+}
+
+.mobileFooterDiv {
+    display: flex;
+    gap: 100px;
 }
 
 footer div {
-    max-width: 25%;
+    width: 300px;
 }
 
 #footerImg {
