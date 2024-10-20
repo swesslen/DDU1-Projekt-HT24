@@ -4,10 +4,6 @@
 }
 
 @media (max-width: 600px) {
-    body {
-        width: 600px;
-    }
-
     nav {
         position: relative;
         width: 90%;
@@ -26,6 +22,7 @@
         width: 30px;
         padding: 10px;
         margin-left: auto;
+        padding: 10px 4px 10px 12px;
     }
 
     #introwrapper {
@@ -54,7 +51,7 @@ nav {
     right: 0;
     margin-left: 1vw;
     margin-right: 1vw;
-    background-color: rgba(255, 255, 255, 0.825)
+    background-color: #ffffff
 }
 
 #hamburger {
@@ -147,7 +144,7 @@ main {
 
 #introwrapper p {
     font-size: 20px;
-    color: gray;
+    color: #7f7f7f;
 }
 
 #introwrapper img {
@@ -190,7 +187,7 @@ main {
 
 .tutorial p {
     font-size: 18px;
-    color: gray;
+    color: #7f7f7f;;
 }
 
 .tutorial p,
@@ -211,7 +208,7 @@ main {
 .quote p {
     font-size: 50px;
     font-weight: bold;
-    color: gray;
+    color: #7f7f7f;;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -235,7 +232,7 @@ main {
 
 .quotee h5 {
     margin-top: 10px;
-    color: gray;
+    color: #7f7f7f;
     font-size: 14px;
 }
 
@@ -268,7 +265,7 @@ main {
 }
 
 #freeplanwrapper p {
-    color: gray;
+    color: #7f7f7f;;
     width: 50%;
 }
 
@@ -287,7 +284,7 @@ main {
     font-size: 17px;
     border-bottom: 1px solid #f6f5f4;
     align-items: center;
-    color: gray;
+    color: #7f7f7f;;
     padding: 15px 0 15px 0;
     justify-content: space-between;
 }
@@ -319,7 +316,7 @@ body #checklist #rightListItem {
 }
 
 #bfetWrapper p {
-    color: gray;
+    color: #7f7f7f;;
 }
 
 #bfetWrapper h2 {
@@ -356,7 +353,7 @@ body #checklist #rightListItem {
 }
 
 #bfet3 a:hover {
-    color: rgb(37, 122, 191);
+    color: #087fe7;
 }
 
 #badgesTitle {
@@ -401,7 +398,7 @@ body #checklist #rightListItem {
     padding: 0 30px 0 30px;
     margin-top: 0;
     margin-bottom: 0;
-    color: gray;
+    color: #7f7f7f;;
     flex: 1;
     text-align: center;
 }
@@ -435,7 +432,7 @@ body #checklist #rightListItem {
 }
 
 #tryToday p {
-    color: gray;
+    color: #7f7f7f;;
     margin: 0 0 20px 0;
 }
 
@@ -477,11 +474,11 @@ footer div {
 
 footer div a {
     margin: 10px 0 15px 0;
-    color: gray;
+    color: #7f7f7f;;
     text-decoration: none;
     display: block;
 }
 
 footer div a:hover {
-    text-decoration: underline gray;
+    text-decoration: underline #7f7f7f;;
 }
