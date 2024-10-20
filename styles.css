@@ -66,8 +66,69 @@
     #mobileCompanies div {
         flex: 1;
     }
-}
 
+    .tutorial {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body .tutorial h2, body .tutorial p, body .tutorial img {
+        width: 500px;
+    }
+
+    body .quote {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body .quote p {
+        font-size: 30px;
+    }
+
+    body #freeplanintro h2, body #freeplanintro p {
+        width: 500px;
+        text-align: center;
+    }
+
+    body #checklist {
+        width: 500px;
+    }
+
+    #bfet3 {
+        flex-direction: column;
+    }
+
+    body #bfet3 div {
+        border-right: none;
+    }
+
+    body #badgesWrapper {
+        flex-direction: column;
+        width: 560px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body #badgesWrapper h3, body #badgesWrapper div {
+        margin-bottom: 10px;
+    }
+
+    body #percentagesWrapper {
+        width: 580px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body #percentagesWrapper div {
+        margin-bottom: 30px;
+    }
+
+    
+}
 body {
     font-family: "Inter";
 }
@@ -209,6 +270,10 @@ main {
     padding: 10px;
 }
 
+#tutorialWrapper {
+    margin-top: 50px;
+}
+
 .tutorial {
     margin-top: 50px;
 }
@@ -225,7 +290,7 @@ main {
 
 .tutorial p,
 .tutorial h2 {
-    max-width: 45%;
+    width: 450px;
 }
 
 .tutorial img {
@@ -297,9 +362,13 @@ main {
     margin-bottom: 5px;
 }
 
+#freeplanintro p {
+    text-align: center;
+}
+
 #freeplanwrapper p {
     color: #7f7f7f;;
-    width: 50%;
+    width: 600px;
 }
 
 #checklist {
