@@ -4,11 +4,13 @@
 }
 
 @media (max-width: 600px) {
-    nav {
+    body nav {
         position: relative;
-        width: 90%;
+        width: 95%;
         box-sizing: border-box;
         border-bottom: none;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #leftNav,
@@ -25,6 +27,10 @@
         padding: 10px 4px 10px 12px;
     }
 
+    body main {
+        margin-top: 50px;
+    }
+
     #introwrapper {
         width: 580px;
         flex-direction: column-reverse;
@@ -32,7 +38,6 @@
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 50px;
     }
 
     #introwrapper div {
@@ -51,7 +56,15 @@
     }
 
     body #companies img {
-        max-width: 50px;
+        max-width: 100px;
+    }
+
+    #mobileCompanies {
+        flex-direction: column;
+    }
+
+    #mobileCompanies div {
+        flex: 1;
     }
 }
 
@@ -178,20 +191,22 @@ main {
     width: 1000px;
     border-bottom: 1px solid #e5e5e5;
     border-top: 1px solid #e5e5e5;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 #companies div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding: 10px;
+    margin: 0;
 }
 
 #companies img {
-    flex: 1;
     max-width: 100px;
     object-fit: contain;
+    padding: 10px;
 }
 
 .tutorial {
