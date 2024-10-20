@@ -572,11 +572,11 @@ footer {
 
 .mobileFooterDiv {
     display: flex;
-    gap: 100px;
+    gap: 90px;
 }
 
 footer div {
-    width: 300px;
+    width: 320px;
 }
 
 #footerImg {
