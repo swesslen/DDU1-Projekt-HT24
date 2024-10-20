@@ -44,7 +44,7 @@ body {
 nav {
     display: flex;
     padding: 17px;
-    border-bottom: 1px solid #f6f5f4;
+    border-bottom: 1px solid #e5e5e5;
     position: fixed;
     top: 0;
     left: 0;
@@ -85,8 +85,8 @@ nav div {
 }
 
 .freeBarky {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     padding: 10px 15px 10px 15px;
     border-radius: 5px;
     width: fit-content;
@@ -94,7 +94,7 @@ nav div {
 }
 
 .freeBarky:hover {
-    background-color: rgb(41, 41, 41);
+    background-color: #353535;
 }
 
 .freeBarky a {
@@ -112,7 +112,7 @@ nav div {
 }
 
 #leftNav div:hover, #rightNav div:hover, #hamburger:hover {
-    background-color: #f6f5f4;
+    background-color: #f4f4f4;
 }
 
 h2 {
@@ -158,8 +158,8 @@ main {
 
 #companies {
     width: 1000px;
-    border-bottom: 1px solid #f6f5f4;
-    border-top: 1px solid #f6f5f4;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
 
 }
 
@@ -242,14 +242,14 @@ main {
 
 #finalquote {
     padding-bottom: 70px;
-    border-bottom: 1px solid #f6f5f4;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 #freeplanwrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid #f6f5f4;
+    border-bottom: 1px solid #e5e5e5;
     padding-bottom: 70px;
 }
 
@@ -270,7 +270,7 @@ main {
 }
 
 #checklist {
-    background-color: rgba(211, 211, 211, 0.634);
+    background-color: #f4f4f4;
     width: 600px;
     border-radius: 10px;
     display: flex;
@@ -282,7 +282,7 @@ main {
 #checklist div {
     display: flex;
     font-size: 17px;
-    border-bottom: 1px solid #f6f5f4;
+    border-bottom: 1px solid #e5e5e5;
     align-items: center;
     color: #7f7f7f;;
     padding: 15px 0 15px 0;
@@ -303,7 +303,7 @@ main {
 
 body #checklist #rightListItem {
     text-align: end;
-    color: black;
+    color: #050505;
 }
 
 #checklist #checklistLast {
@@ -335,7 +335,7 @@ body #checklist #rightListItem {
 #bfet3 div {
     text-align: center;
     padding: 15px;
-    border-right: 1px solid #f6f5f4;
+    border-right: 1px solid #e5e5e5;
     flex: 1;
 }
 
@@ -349,7 +349,7 @@ body #checklist #rightListItem {
 }
 
 #bfet3 a {
-    color: black;
+    color: #050505;
 }
 
 #bfet3 a:hover {
@@ -374,7 +374,7 @@ body #checklist #rightListItem {
 }
 
 #badgesWrapper a {
-    color: black;
+    color: #050505;
 }
 
 #badgesWrapper div {
@@ -464,12 +464,12 @@ footer div {
 }
 
 .copyright {
-    color: black;
+    color: #050505;
 }
 
 .footerBold {
     font-weight: bold;
-    color: black;
+    color: #050505;
 }
 
 footer div a {
