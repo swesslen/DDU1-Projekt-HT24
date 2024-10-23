@@ -4,6 +4,7 @@
 }
 
 @media (max-width: 600px) {
+
     body nav {
         position: relative;
         width: 95%;
@@ -32,7 +33,7 @@
     }
 
     #introwrapper {
-        width: 580px;
+        max-width: 95%;
         flex-direction: column-reverse;
         text-align: center;
         align-items: center;
@@ -41,30 +42,22 @@
     }
 
     #introwrapper div {
-        width: 500px;
+        max-width: 85%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #introwrapper img {
-        width: 500px;
+    body #introwrapper img {
+        max-width: 85%;
     }
 
     body #companies {
-        width: 580px;
+        max-width: 95%;
     }
 
     body #companies img {
         max-width: 100px;
-    }
-
-    #mobileCompanies {
-        flex-direction: column;
-    }
-
-    #mobileCompanies div {
-        flex: 1;
     }
 
     .tutorial {
@@ -78,11 +71,11 @@
     body .tutorial h2,
     body .tutorial p,
     body .tutorial img {
-        width: 500px;
+        max-width: 90%;
     }
 
     body .quote {
-        width: 500px;
+        max-width: 95%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -91,14 +84,22 @@
         font-size: 30px;
     }
 
+    body .quotee {
+        max-width: 90%;
+    }
+
+    body #freeplanintro {
+        max-width: 95%;
+    }
+
     body #freeplanintro h2,
-    body #freeplanintro p {
-        width: 500px;
+    body main #freeplanintro p {
+        max-width: 90%;
         text-align: center;
     }
 
     body #checklist {
-        width: 500px;
+        max-width: 90%;
     }
 
     #bfet3 {
@@ -111,7 +112,17 @@
 
     body #badgesWrapper {
         flex-direction: column;
-        width: 560px;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body #badgesWrapper {
+        max-width: 95%;
+    }
+
+    #badgesWrapper div img {
+        max-width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -119,10 +130,16 @@
     body #badgesWrapper h3,
     body #badgesWrapper div {
         margin-bottom: 10px;
+        max-width: 90%;
+    }
+
+    #badges {
+        display: flex;
+        justify-content: center;
     }
 
     body #percentagesWrapper {
-        width: 580px;
+        max-width: 95%;
         flex-direction: column;
         align-items: center;
     }
@@ -134,14 +151,14 @@
 
     body footer #footerWrapper {
         flex-direction: column;
-        width: 580px;
+        max-width: 95%;
         gap: 10px;
     }
 
     .mobileFooterDiv {
         display: flex;
         flex-direction: row;
-        width: 500px;
+        max-width: 90%;
     }
 
     body #footerImg {
@@ -156,7 +173,7 @@ body {
 
 nav {
     display: flex;
-    padding: 17px;
+    padding: 17px 0;
     border-bottom: 1px solid #e5e5e5;
     position: fixed;
     top: 0;
@@ -164,7 +181,9 @@ nav {
     right: 0;
     margin-left: 1vw;
     margin-right: 1vw;
-    background-color: #ffffff
+    background-color: #ffffff;
+    gap: 5px;
+    max-width: 100%;
 }
 
 #hamburger {
@@ -178,12 +197,12 @@ nav div {
 }
 
 #leftNav {
-    width: 40%;
     justify-content: space-evenly;
 }
 
 #leftNav div {
-    gap: 7px;
+    gap: 5%;
+    
 }
 
 #navLogo svg {
@@ -192,12 +211,11 @@ nav div {
 }
 
 #rightNav {
-    width: 20%;
     justify-content: space-evenly;
     margin-left: auto;
 }
 
-.freeBarky {
+body .freeBarky, body nav .freebarky {
     background-color: #000000;
     color: #ffffff;
     padding: 10px 15px 10px 15px;
@@ -206,7 +224,7 @@ nav div {
     box-shadow: 0px 0px 0px 0.1px rgba(0, 0, 0, 0.02);
 }
 
-.freeBarky:hover {
+body .freeBarky:hover {
     background-color: #353535;
 }
 
@@ -220,7 +238,7 @@ nav div {
 #rightNav div,
 #hamburger {
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -264,7 +282,7 @@ main {
 }
 
 #introwrapper img {
-    width: 500px;
+    max-width: 50%;
 }
 
 #introwrapper .freeBarky {
@@ -272,11 +290,11 @@ main {
 }
 
 #companies {
-    width: 1000px;
+    max-width: 1000px;
     border-bottom: 1px solid #e5e5e5;
     border-top: 1px solid #e5e5e5;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -285,10 +303,11 @@ main {
     justify-content: center;
     align-items: center;
     margin: 0;
+    flex-grow: 1;
 }
 
 #companies img {
-    max-width: 100px;
+    max-width: 10vw;
     object-fit: contain;
     padding: 10px;
 }
@@ -313,11 +332,11 @@ main {
 
 .tutorial p,
 .tutorial h2 {
-    width: 450px;
+    max-width: 450px;
 }
 
 .tutorial img {
-    max-width: 1000px;
+    max-width: 100%;
     margin-top: 30px;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.076);
 }
@@ -507,13 +526,13 @@ body #checklist #rightListItem {
 }
 
 #badgesWrapper img {
-    width: 500px;
+    max-width: 500px;
 }
 
 #percentagesWrapper {
     display: flex;
     justify-content: space-evenly;
-    width: 1000px;
+    max-width: 100%;
 
 }
 
@@ -582,9 +601,6 @@ footer {
     gap: 90px;
 }
 
-footer div {
-    width: 320px;
-}
 
 #footerImg {
     display: flex;
